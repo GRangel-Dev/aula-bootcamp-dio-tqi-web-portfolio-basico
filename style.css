@@ -11,7 +11,7 @@ body {
 
 .header-wrapper{
      height: 100vh;
-     height: 100%;
+     width: 100%;
      background: linear-gradient(-45deg, #0000CD, #1E90FF, #87CEEB, #00CED1, #008080);
      background-size: 400% 400%;
      display: flex;
@@ -20,6 +20,16 @@ body {
      justify-content: center;
      position: relative;
      animation: backgroundTransition 8s ease-in-out infinite;
+}
+
+.header-wrapper .photo {
+     position: absolute;
+     top: 28px;
+     left: 30px;
+     background: transparent;
+     width: 20%;
+     border-radius: 50%;
+     border: 1px solid #ffffff;
 }
 
 h1 {
